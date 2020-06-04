@@ -1,12 +1,17 @@
+
 @font-face {
-	font-family: 'SF Pro Display';
-	src: url('../fonts/SFProDisplay-Regular.ttf');
+	font-family: 'SFProDisplay';
+	src:url('../fonts/SFProDisplay.eot') format('eot'),
+		url('../fonts/SFProDisplay.woff') format('woff'),
+		url('../fonts/SFProDisplay.ttf') format('truetype'),
+		url('../fonts/SFProDisplay.svg') format('svg');
 }
+
 body{
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'SF Pro Display';
+	font-family: 'SFProDisplay';
 }
 
 header{
@@ -26,7 +31,7 @@ h3{
 }
 .logo h1{
 	float: right;
-	font-weight: 500;
+	font-weight: 550;
 	font-size: 20px;
 }
 .nav-link{
