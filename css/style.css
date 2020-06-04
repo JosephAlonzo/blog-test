@@ -6,6 +6,7 @@ body{
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	font-family: 'SF Pro Display';
 }
 
 header{
@@ -16,7 +17,7 @@ header{
 	/*top:0;*/
 }
 h3{
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 500;
 }
 .logo{
@@ -25,7 +26,7 @@ h3{
 }
 .logo h1{
 	float: right;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 }
 .nav-link{
@@ -42,8 +43,8 @@ h3{
 	background-color: #ffffff;
 }
 .card-header h2{
-	font-size: 17px;
-	font-weight: 550;
+	font-size: 20px;
+	font-weight: 500;
 }
 .card-body{
 	color: #999;
@@ -53,7 +54,7 @@ h3{
 .card-body h5{
 	font-size: 17px;
 	padding-left:1rem;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 .horizontal-card .card-text{
@@ -62,7 +63,7 @@ h3{
 }
 
 .horizontal-card h3{
-	font-weight: 600;
+	font-weight: 500;
 	color: #190608;
 }
 .horizontal-card h5 a{
@@ -77,6 +78,11 @@ h3{
 	border:none;
 	padding-left: 0;
 }
+
+.card-footer a{
+	text-decoration: none;
+}
+
 
 footer p{
 	color: #999;

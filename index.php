@@ -12,7 +12,7 @@ include('includes/header.php');
                 </div>
                 <img src="<?= $article['urlToImage']?>" class="card-img-top rounded-lg shadow " alt="image of article">
                 <div class="card-body">
-                    <p class="mt-2">Posted by <span><?= $users[$key]['name']['first'] . ' ' . $users[$key]['name']['last']?></span> on <?= $blogMethods->changeDateFormat($article['publishedAt'])?></p>
+                    <p class="mt-3">Posted by <span><?= $users[$key]['name']['first'] . ' ' . $users[$key]['name']['last']?></span> on <?= $blogMethods->changeDateFormat($article['publishedAt'])?></p>
                     <p class="card-text"><?= $article['description']?></p>
                 </div>
                 <div class="card-footer">
@@ -21,8 +21,8 @@ include('includes/header.php');
             </div>
             <?php } ?>  
         </div>
-        <div class="col-md-4 mt-5 horizontal-card">
-            <h3 class="text-center">YOU MIGHT ALSO LIKE</h3>
+        <div class="col-md-4 mt-4 horizontal-card">
+            <h3 class="">YOU MIGHT ALSO LIKE</h3>
             <?php foreach($articles as $key=>$article) {?>
                 <div class="card mb-3 mt-4">
                     <div class="row no-gutters">

@@ -23,7 +23,7 @@ if(isset($_GET["article"])){
     </div>
     <div class="row">
         <div class="col-12 col-md-10 m-auto">
-            <form class="page-form">
+            <form class="page-form p-3">
                 <div class="form-group" >
                     <label for="exampleInputEmail1">Name</label>
                     <input type="text" class="form-control" id="">
